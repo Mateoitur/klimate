@@ -35,7 +35,6 @@ const App = () => {
           <Toaster richColors/>
         </ThemeProvider>
       </BrowserRouter>
-      <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   )
 }
