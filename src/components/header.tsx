@@ -17,8 +17,11 @@ const Header = () => {
           className="h-14" />
         </Link>
 
-        <div className="flex gap-4">
+        <div className="flex flex-row gap-4">
+          <div className="flex items-center">
           <CitySearch/>
+          </div>
+          
 
           <div onClick={()=>setTheme(isDark ? "light" : "dark")}
             className={`flex items-center cursor-pointer transition-transform duration-500 hover:scale-110
